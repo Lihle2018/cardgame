@@ -10,7 +10,6 @@ namespace cardgame.Services
         public DeckService()
         {
             _deck = new Stack<Card>();
-            GenerateDeck();
         }
 
         public void GenerateDeck()
